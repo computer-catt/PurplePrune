@@ -1,6 +1,5 @@
-/* config for theme */
+/* PurplePrune */
 :root {
-  
   /* Theme Background */
   --theme-background-image: url(https://github.com/computer-catt/PurplePrune/blob/main/Assets/Nighttheme.png?raw=true);
 
@@ -105,6 +104,18 @@
   --reaction-emoji-border-color: 1px solid transparent;
   --reaction-emoji-hover-background-color: rgba(255, 255, 255, 0.1);
   --reaction-emoji-hover-border-color: rgba(255, 255, 255, 0.2);
+  
+  /* Transparent Popups Config */
+  --blur-popup: 40px; /*Popup blur size*/
+  --opacity-popup: 0.6; /*Popup background opacity*/  
+  --radius-popup: 40px; /*Popup border radius*/
+  --radius-context: 20px; /*Context menu popups radius*/
+  /*--pop-up-color: black; /*uncomment for custom Popup color*/ 
+  /*--context-menu-border: 1px solid red; /*uncomment for custom border*/
+}
+
+.theme-dark {
+    --background-tertiary: #2f31364b;
 }
 
 * {
@@ -112,6 +123,4 @@
     scrollbar-color: unset !important;
 }
 
-.theme-dark {
-    --background-tertiary: #2f31364b;
-}
+/* End PurplePrune */
