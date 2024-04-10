@@ -6,6 +6,7 @@ this theme is designed to change the way discord looks without any layout change
 
 
 note: designed for vencord, you need both themeconfig and purpleprune active at the same time
+
 alternitavely put the contents of [themeconfig.css](https://raw.githubusercontent.com/computer-catt/PurplePrune/main/ThemeConfig.css) in your quickcss to edit the background
 
 # How to install into vencord?
