@@ -10,7 +10,7 @@ This theme is designed to change the way Discord looks without any layout change
 - To configure the theme, put the contents of [ThemeConfig.css](https://raw.githubusercontent.com/computer-catt/PurplePrune/main/ThemeConfig.css) in your QuickCSS.
 
 # How to install into vencord?
-Add this 2 line into your Vencord theme fetcher.
+Add this line into your Vencord theme fetcher.
 ```
 https://raw.githubusercontent.com/computer-catt/PurplePrune/main/PurplePrune-main.css
 ```
