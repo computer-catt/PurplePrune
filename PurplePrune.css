@@ -1333,3 +1333,13 @@ svg.notches__5406c.gray__211f0 {
 .resizeHandle_cc9d34 {
     background: none;
 }
+
+/*rightclick radius*/
+.colorDefault_e361cf {
+    border-radius: 10px;
+}
+
+/*voicechat panels*/
+:root {
+    --custom-base-tile-border-radius: 20px;
+}
