@@ -2,19 +2,17 @@
 a personal fork of NAAT with many fixes
 
 
-This theme is designed to change the way Discord looks without any layout changes or excessive edits, Same reason people like the default Discord Nitro theme
+This theme is designed to change the way Discord looks without any layout changes or excessive edits, For the same reason people like the default Discord Nitro theme
 
 
 # Important notes:
 - Use Dark theme! turn sync off if you'd like to use another Discord theme on a different device.
-- You need both ThemeConfig and PurplePrune active at the same time.
-- Alternatively put the contents of [ThemeConfig.css](https://raw.githubusercontent.com/computer-catt/PurplePrune/main/ThemeConfig.css) in your QuickCSS to edit the background.
+- To configure the theme, put the contents of [ThemeConfig.css](https://raw.githubusercontent.com/computer-catt/PurplePrune/main/ThemeConfig.css) in your QuickCSS.
 
 # How to install into vencord?
-Add these 2 lines into your Vencord theme fetcher.
+Add this 2 line into your Vencord theme fetcher.
 ```
-https://raw.githubusercontent.com/computer-catt/PurplePrune/main/PurplePrune.css
-https://raw.githubusercontent.com/computer-catt/PurplePrune/main/ThemeConfig.css
+https://raw.githubusercontent.com/computer-catt/PurplePrune/main/PurplePrune-main.css
 ```
 
 # Showcase
