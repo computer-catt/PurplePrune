@@ -18,7 +18,15 @@ https://raw.githubusercontent.com/computer-catt/PurplePrune/main/PurplePrune-mai
 # Showcase
 ![image](https://github.com/computer-catt/PurplePrune/assets/98061642/4442edee-a250-46b0-ab34-33539891f790)
 ![image](https://github.com/computer-catt/PurplePrune/assets/98061642/fc156f18-5d9c-4d24-859a-477ae78ef0e2)
+Note: To get the bottom theme you have to modify the background to use the day background.
 
+QuickCSS:
+```css
+:root {
+  /* Theme Background */
+  --theme-background-image: url(https://github.com/computer-catt/PurplePrune/blob/main/Assets/Daytheme.png?raw=true);
+}
+```
 
 # History & Credit
 This theme is mostly inspired from [VodkaXMartini's](https://github.com/VodkaXMartini) [PurpleGalaxy](https://github.com/VodkaXMartini/VendettaTheme/blob/main/PurpleGalaxy.json),

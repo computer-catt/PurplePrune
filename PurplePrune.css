@@ -1343,3 +1343,18 @@ svg.notches__5406c.gray__211f0 {
 :root {
     --custom-base-tile-border-radius: 20px;
 }
+
+/*signout panels*/
+svg.artwork__94141 {
+    display: none;
+}
+
+div[class="marginBottom20__9fcf3"] > div[class="input_f27786 input__37f36"]{
+    background: 0 0;
+}
+
+form.authBoxExpanded__1da99.authBox__6f336.theme-dark {
+    background: #1d1d1d75;
+}
+
+
