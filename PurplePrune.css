@@ -1323,3 +1323,8 @@ svg.notches__5406c.gray__211f0 {
 .preview__30ef4.marginBottom40_f4d1a4.group-spacing-16.cardPrimary__1ee6a.card__4dc22.outline__16075 {
     background: 0 0;
 }
+
+/*weird scrollbar bottom cover remover*/
+.theme-dark .form_d8a4a1:before, .theme-dark .form_d8a4a1:after {
+    background: none;
+}
