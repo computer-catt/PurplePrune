@@ -1328,3 +1328,8 @@ svg.notches__5406c.gray__211f0 {
 .theme-dark .form_d8a4a1:before, .theme-dark .form_d8a4a1:after {
     background: none;
 }
+
+/*uncolored chat resizer in expanded voice channel*/
+.resizeHandle_cc9d34 {
+    background: none;
+}
