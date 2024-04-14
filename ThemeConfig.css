@@ -8,8 +8,7 @@
   
   /* Main Theme Color */
   --main-theme-color: rgb(255, 255, 255);
-
-
+  
   /* Font Size */
   --font-size: 100%;
 
@@ -113,14 +112,4 @@
   /*--pop-up-color: black; /*uncomment for custom Popup color*/ 
   /*--context-menu-border: 1px solid red; /*uncomment for custom border*/
 }
-
-.theme-dark {
-    --background-tertiary: #2f31364b;
-}
-
-* {
-    scrollbar-width: unset !important;
-    scrollbar-color: unset !important;
-}
-
 /* End PurplePrune */

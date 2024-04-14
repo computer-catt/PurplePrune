@@ -1268,7 +1268,7 @@ svg.notches__5406c.gray__211f0 {
 }
 
 /*vencord checkbox*/
-.container__2ed72.default-colors {
+.container__2ed72 {
     background-color: #dadada26 !important;
 }
 
@@ -1314,6 +1314,7 @@ form.authBoxExpanded__1da99.authBox__6f336.theme-dark {
     background: #1d1d1d75;
 }
 
+/*discord loading page*/
 .container__827e6.fixClipping__84826{
     background: 0 0;
 }
@@ -1391,4 +1392,65 @@ form.authBoxExpanded__1da99.authBox__6f336.theme-dark {
 
 .directoryContainer__36395.thin__62e51.scrollerBase__65223 {
     background: initial;
+}
+
+/*round hypesquad banner*/
+.membershipDialog_a0308e {
+    border-radius: 30px;
+}
+
+/*text playground*/
+.fullscreen_f7c7ee {
+    background-image: var(--theme-background-image) !important;
+    background-size: cover !important;
+}
+
+.fullscreen_f7c7ee > div {
+    background-color: var(--theme-transparency);
+    padding: 15px;
+    border-radius: 40px;
+}
+
+/*voicechat member viewer expand button*/
+.expandButton__5f053.button__292b6.primary_a41c2a.size24__74630 {
+    background: #30303080;
+}
+
+/*overlapping old message popup bar*/
+.barBase__8839d {
+    margin-bottom: 8px;
+    padding-bottom: 0;
+}
+
+/*scroll bars*/
+:root {
+    --scrollbar-thin-thumb: oklch(0.6 0.12 321.36 / 0.1) !important;
+    --scrollbar-auto-thumb: oklch(0.6 0.12 321.36 / 0.1) !important;
+    --scrollbar-thin-track: transparent !important;
+    --scrollbar-auto-track: transparent !important;
+}
+
+/*polls, gaia from vencord*/
+div[class^=pollBadgeDefault] svg path {
+    fill: #ffffff !important;
+}
+div[class^="pollBadgeDefault"] div[class^="text"] {
+    color: #ffffff !important;
+}
+div[class*="pollContainer"] {
+    background-color: #00000062 !important;
+}
+div[class*="pollContainer"]  div[class^="answer"] {
+    background: 0 0;
+}
+
+/*fix web scrollbars*/
+* {
+    scrollbar-width: unset !important;
+    scrollbar-color: unset !important;
+}
+
+/*fixes the user pop out in settings*/
+.theme-dark {
+    --background-tertiary: #2f31364b;
 }
