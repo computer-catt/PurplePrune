@@ -1418,7 +1418,7 @@ form.authBoxExpanded__1da99.authBox__6f336.theme-dark {
 
 /*overlapping old message popup bar*/
 .barBase__8839d {
-    margin-bottom: 8px;
+    margin-bottom: 8px !important;
     padding-bottom: 0;
 }
 
