@@ -1268,7 +1268,7 @@ svg.notches__5406c.gray__211f0 {
 }
 
 /*vencord checkbox*/
-.container__2ed72 {
+.container__2ed72:not(.checked__36fdc) {
     background-color: #dadada26 !important;
 }
 
