@@ -999,7 +999,7 @@ html {
 }
 
 .theme-dark .page_e5cc79 {
-    background-color: transparent;
+    background-color: transparent !important;
 }
 
 .theme-dark .container__3a30a {
