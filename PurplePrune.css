@@ -62,7 +62,7 @@
     background-color: transparent;
 }
 
-.container_e44302.themed_e44302 {
+.container_fc4f04.themed_fc4f04 {
     background: transparent;
 }
 
@@ -219,13 +219,13 @@
 }
 
 /* DAY CONTAINER */
-.content_fc5f50 {
+.content_c2654d {
     color: var(--main-theme-color);
     background: transparent;
 }
 
 /* ANNOYANCES */
-.theme-dark .children_e44302:after {
+.theme-dark .children_fc4f04:after {
     background: transparent;
 }
 
@@ -284,7 +284,7 @@
     background-color: transparent;
 }
 
-.wrapper_b211c6 {
+.wrapper_b75bb9 {
     background-color: transparent;
 }
 
@@ -501,13 +501,13 @@
 }
 
 /* Code Markup */
-.markup_d6076c code {
+.markup_f8f345 code {
     background: var(--code-markup-background-color);
     border: var(--code-markup-border);
 }
 
 /* quote */
-.blockquoteDivider_d6076c {
+.blockquoteDivider_f8f345 {
     background-color: var(--main-theme-color);
 }
 
@@ -550,16 +550,16 @@
 }
 
 /* Unread Message Divider */
-.isUnread_fc5f50 {
+.isUnread_c2654d {
     border-color: var(--unread-message-divider-color);
 }
 
-.unreadPill_fc5f50 {
+.unreadPill_c2654d {
     color: var(--unread-message-divider-font-color);
     background-color: var(--unread-message-divider-color);
 }
 
-.unreadPillCapStroke_fc5f50 {
+.unreadPillCapStroke_c2654d {
     color: var(--unread-message-divider-color);
     fill: var(--unread-message-divider-color);
 }
@@ -631,7 +631,7 @@
     background-color: var(--message-search-result-background-color);
 }
 
-.wrapper_fd07a3 {
+.wrapper_c4cd66 {
     overflow: visible;
 }
 
@@ -1199,7 +1199,7 @@ input.inputDefault_f8bc55.input_f8bc55,.bioTextArea_ccf27d.scrollableContainer_d
 }
 
 /*copy input*/
-.copyInputDefault_e19ebf.copyInput_f549fd {
+.copyInputDefault_e19ebf.copyInput_d7e343 {
     background: var(--message-box-transparency);
 }
 
