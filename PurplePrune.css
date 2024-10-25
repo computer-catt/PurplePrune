@@ -44,7 +44,6 @@
     background-color: transparent;
 }
 
-
 .scroller_c47fa9 {
     background-color: transparent;
 }
@@ -173,7 +172,7 @@
 }
 
 /* SETTINGS */
-.layer_d4b6c5  {
+.layer_d4b6c5 {
     background-color: transparent;
 }
 
@@ -203,12 +202,12 @@
 }
 
 /* CHAT SCROLLER */
-.auto_eed6a8::-webkit-scrollbar-track {
+.auto_c49869::-webkit-scrollbar-track {
     background-color: transparent;
 }
 
 /* SCROLL THUMB */
-.auto_eed6a8::-webkit-scrollbar-thumb {
+.auto_c49869::-webkit-scrollbar-thumb {
     background-color: var(--scrollbar-color);
 }
 
@@ -318,7 +317,9 @@
 }
 
 /* Channel category color */
-.wrapper_a08117:not(.muted_a08117) .name_a08117.container-q97qHp .overflow_a82120 {
+.wrapper_a08117:not(.muted_a08117)
+.name_a08117.container_a5ad5c
+.overflow_a82120 {
     color: var(--main-theme-color);
 }
 
@@ -344,6 +345,7 @@
 
 /* Channel scroller */
 .thin_eed6a8::-webkit-scrollbar-track {
+    border-color: transparent;
     background-color: transparent;
     border: transparent;
 }
@@ -574,11 +576,19 @@
 }
 
 /* Emoji Menu */
+.emojiPicker_c6ee36 {
+    background-color: var(--emoji-menu-background-color);
+}
+
 .contentWrapper_af5dbb {
     background-color: var(--emoji-menu-background-color);
 }
 
-.wrapper_dc0b29 {
+.header_c6ee36 {
+    background-color: var(--emoji-menu-background-color);
+}
+
+.wrapper_ba23fe {
     background-color: var(--emoji-menu-sider-background-color);
 }
 
@@ -637,6 +647,15 @@
 
 .expandedFolderBackground-1cujaW {
     left: 1px;
+}
+
+.wrapper_fea3ef
+.scroller_fea3ef
+div
+.listItem-GuPuDH
+.pill_f36a5a
+.item_c4cd66 {
+    opacity: 0 !important;
 }
 
 .tree_fea3ef:focus {
@@ -774,6 +793,10 @@ html {
     background-color: rgb(0, 0, 0, 0);
 }
 
+.pill_f36a5a .item_c4cd66 {
+    opacity: 0 !important;
+}
+
 .listItem__39e63 {
     width: initial;
 }
@@ -792,7 +815,7 @@ html {
 }
 
 .expandedFolderBackground_bc7085 {
-    left: 0;
+    left: 0px;
 }
 
 .folder_bc7085,
@@ -818,7 +841,7 @@ html {
 
 .footer-3naVBw {
     background-color: var(--small-user-popout-background-transparency);
-    margin-top: 0;
+    margin-top: 0px;
 }
 
 .container_d1c246 {
@@ -1022,6 +1045,46 @@ html {
     color: var(--unread-text-channel-color);
 }
 
+.wrapper_b75bb9 {
+    background: transparent;
+}
+
+.container_a6d69a {
+    background: transparent;
+}
+
+.container_fc4f04 {
+    --__header-bar-background: transparent;
+}
+
+.theme-dark .themed_fc4f04 {
+    background: transparent;
+}
+
+.attachedBars_d0696b {
+    background-color: var(--message-box-transparency);
+}
+
+.replyBar_b11c5e {
+    background-color: transparent;
+}
+
+.header_b56bbc {
+    background-color: transparent;
+}
+
+.button_df39bd {
+    background: var(--message-box-transparency);
+}
+
+.footer_aa1bff {
+    background-color: transparent;
+}
+
+.gradient_aa1bff {
+    background-color: transparent;
+}
+
 .theme-dark .scrollerContainer_c6b11b, .theme-dark .emptyPage_c6b11b {
     background-color: #00000000;
 }
@@ -1131,7 +1194,7 @@ article.container_d9c848.clickable_d9c848.animatesOnHoverContainer_d9c848 {
     background: rgba(38, 38, 38, 0.07);
 }
 
-/*about me                                                                                                                     + the server template description*/
+/*about me   + the server template description*/
 input.inputDefault_f8bc55.input_f8bc55,.bioTextArea_ccf27d.scrollableContainer_d0696b.themedBackground_d0696b.webkit__8d35a, [placeholder="What can people do in this server?"] {
     background: var(--message-box-transparency);
     border-style: solid;
