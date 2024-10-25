@@ -1530,3 +1530,11 @@ div[class*="pollContainer"]  div[class^="answer"] {
 .listItem__39e63 {
     width: initial;
 }
+
+.themedBackground_bdf0de{
+    background: var(--message-box-transparency)
+}
+
+.stackedBars_bdf0de{
+    background: var(--message-box-transparency)
+}
