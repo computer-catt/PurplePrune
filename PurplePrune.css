@@ -7,11 +7,11 @@
 }
 
 .app__160d8 {
-    background-color: transparent;
+  background-color: transparent;
 }
 
 .bg__960e4 {
-    background-color: var(--theme-transparency);
+  background-color: var(--theme-transparency);
 }
 
 /*.tutorialContainer-2sGCg9
@@ -34,10 +34,10 @@
 }*/
 
 .tutorialContainer-2sGCg9
-  .listItem-GuPuDH
-  .listItemWrapper-KhRmzM
-  .wrapper__8436d
-  svg {
+.listItem-GuPuDH
+.listItemWrapper-KhRmzM
+.wrapper__8436d
+svg {
   opacity: 0;
 }
 
@@ -59,7 +59,7 @@
 }
 
 /* FRIENDS SIDEBAR */
-.sidebar_c48ade, .header_c6bf1b.stickyHeader_c6bf1b {
+.sidebar_c48ade {
   background: transparent;
 }
 
@@ -470,14 +470,15 @@
   color: var(--main-theme-color);
 }
 
-.mainContent__29444 .container_cc72c1 {
+.mainContent__29444 .container__13cf1 {
   color: var(--main-theme-color);
 }
 
 .wrapper__29444.muted__29444:hover .icon__29444,
 .wrapper__29444.muted__29444:hover .name__29444,
 .wrapper__29444:hover .icon__29444,
-.wrapper__29444:hover .name__29444.container_cc72c1 {
+.wrapper__29444:hover .name__29444.container__13cf1.text__13cf1
+.overflow__82b15 {
   color: var(--category-hover-color);
 }
 
@@ -953,6 +954,45 @@ html {
   background-color: var(--emoji-menu-background-color);
 }
 
+/*
+.tutorialContainer__1f388 .childWrapper__6e9f8 {
+  background: var(--home-icon-image) !important;
+  background-position: var(--home-icon-image-position) !important;
+  background-repeat: no-repeat !important;
+  background-size: var(--home-icon-image-zoom) !important;
+}
+
+.tutorialContainer__1f388 .wrapper_cc5dd2 .childWrapper__6e9f8 svg {
+  visibility: hidden;
+}
+
+.homeIcon-tEMBK1 {
+  visibility: hidden;
+}
+
+.tutorialContainer__1f388
+  .listItem__650eb
+  .listItemWrapper_dfb2f8
+  .wrapper__8436d
+  svg {
+  opacity: 0;
+}
+
+.tutorialContainer__1f388 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.tutorialContainer__1f388 .listItem-GuPuDH {
+  right: 5px;
+}
+
+.listItem__650eb {
+  width: initial;
+}
+*/
+
 .expandedFolderBackground__48112 {
   left: 0px;
 }
@@ -1245,6 +1285,22 @@ html {
 }
 
 .resizeHandle__01ae2 {
+  background-color: transparent;
+}
+
+.floating__01ae2 {
+  background-color: color-mix(
+          in srgb,
+          var(--theme-transparency),
+          transparent 20%
+  );
+}
+
+.chatHeaderBar_a5700d.narrow_a5700d {
+  background-color: transparent;
+}
+
+.theme-dark .content__37e49 {
   background: transparent;
 }
 
