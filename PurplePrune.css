@@ -1752,3 +1752,8 @@ div[class*="pollContainer"]  div[class^="answer"] {
 .stackedBars__74017{
     background: var(--message-box-transparency)
 }
+
+/* activity cards*/
+.container__0f2e8 {
+    background: none;
+}
