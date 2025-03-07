@@ -1750,10 +1750,17 @@ div[class*="pollContainer"]  div[class^="answer"] {
 }
 
 .stackedBars__74017{
-    background: var(--message-box-transparency)
+  background: var(--message-box-transparency)
 }
 
 /* activity cards*/
 .container__0f2e8 {
-    background: none;
+  background: none;
+}
+
+/* listening along on spotify */
+.listeningAlong_e0cf27 {
+  background: none;
+  border: solid;
+  border-color: #00000021; /* slight border*/
 }
