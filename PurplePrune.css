@@ -21,6 +21,7 @@
     --enable-blur: 1;
     --blur-strength: 6px;
 
+    --app-frame-background: 0 0 !important;
     --background-base-lowest: 0 0 !important;
     --background-base-lower: 0 0 !important;
     --background-base-low: #00000040 !important;
