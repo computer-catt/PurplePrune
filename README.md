@@ -1,18 +1,17 @@
 # PurplePrune
-a personal fork of NAAT with many fixes
-
-
 This theme is designed to change the way Discord looks without any layout changes or excessive edits, For the same reason people like the default Discord Nitro theme
 
+The most recent redesign has been made with window transparency in mind, to enable transparency remove the image background and disable blur
 
 # Important notes:
 - Use Dark theme! turn sync off if you'd like to use another Discord theme on a different device.
-- To configure the theme, put the contents of [ThemeConfig.css](https://raw.githubusercontent.com/computer-catt/PurplePrune/main/ThemeConfig.css) in your QuickCSS.
+- To configure the theme copy the header of the theme into your quickcss and make your edits.
+- This theme also aims to fix some inconsistencies with discords default custom color themes.
 
 # How to install into vencord?
 Add this line into your Vencord theme fetcher.
 ```
-https://raw.githubusercontent.com/computer-catt/PurplePrune/main/PurplePrune-main.css
+https://raw.githubusercontent.com/computer-catt/PurplePrune/main/PurplePrune.css
 ```
 
 # Showcase
@@ -24,19 +23,13 @@ QuickCSS:
 ```css
 :root {
   /* Theme Background */
-  --theme-background-image: url(https://github.com/computer-catt/PurplePrune/blob/main/Assets/Daytheme.png?raw=true);
+  --theme-background-image: url(https://github.com/computer-catt/PurplePrune/blob/main/Assets/DayTheme.webp?raw=true);
 }
 ```
 
 # History & Credit
-This theme is mostly inspired from [VodkaXMartini's](https://github.com/VodkaXMartini) [PurpleGalaxy](https://github.com/VodkaXMartini/VendettaTheme/blob/main/PurpleGalaxy.json),
+PurplePrune used to be based entirely on NAAT, but has had a rewrite to be more efficient and manageable.
 
-One day the background stopped working on my phone so i searched for the old one and found a [full wallpaper](https://imgur.com/oParsWN) of it on 4Chan, It wasn't animated but it looked very good.
+This theme is mostly inspired from [VodkaXMartini's](https://github.com/VodkaXMartini) [PurpleGalaxy](https://github.com/VodkaXMartini/VendettaTheme/blob/main/PurpleGalaxy.json) which used the same base background,
 
-I then made a beta version of this by just configuring [puckzxz's](https://github.com/puckzxz) [NAAT](https://github.com/puckzxz/NotAnotherAnimeTheme/blob/master/css/v3/naat.v3.css).
-
-Some stuff was broken and i was messing with Discord CSS at the time anyway so i decided to fix it.
-
-Then released my version of the theme(complying with Puckzxz's Unlicence licence)
-
-Added [s-k-y-l-i's](https://github.com/s-k-y-l-i) [Transparent Popups](https://github.com/s-k-y-l-i/discord-themes/blob/main/Theme%20code/transparent-popups.css), Thank you!
+[full wallpaper](https://www.tumblr.com/flickerfae/93460308187/subtly-animated-pixel-night-sky-background-i-did) from tumblr by flickerfae in 2014
