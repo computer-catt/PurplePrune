@@ -38,7 +38,7 @@
 }   /* end of config header */
 
 /* set background image */ html {background: var(--theme-background-image); background-size: contain; image-rendering: pixelated}
-/* set tint */ body { background: var(--window-tint) !important; }
+/* set tint */ body { background: var(--window-tint) !important; image-rendering: auto;}
 /* voice chat fixes */ .root_bfe55a {background: 0 0;}
 /* i dont remember */ .avatarUploaderInnerSquareDisabled_e04502 {background-color: #00000050;}
 /* fix discover page */ .bannerContent_b76d57, .container_e9ef78 {mask: linear-gradient(black 70%, transparent);}
