@@ -5,10 +5,11 @@
  * @version 0.1.0
  */
 
+@import url(https://raw.githubusercontent.com/Benzeel/Bennys-Css-Snippets/refs/heads/main/TransparentMessagebox.css);
+
 /* config header */
-:root,
-.theme-dark {
-    /* if backgrounds are enabled this acts as a background ting*/
+:root, .theme-dark {
+    /* if backgrounds are enabled this acts as a background tint*/
     --window-tint: #0005;
     /*--window-tint: #0000;*/
 
@@ -17,51 +18,65 @@
     /*--theme-background-image: none;*/
 
     /* Works best with background enabled ^ */
-    /* Blur  1 for on 0 for off*/
-    --enable-blur: 1;
-    --blur-strength: 6px;
+    --enable-blur: 1; /* 0 disables */
+    --blur-strength: 4px;
 
+    /* Transparent messagebox options */
+    --tm-enable: 1; /* 0 disables */
+    --tm-blur: var(--blur-strength); /* configure blur here */
+
+    /* Discords theme options */
     --app-frame-background: 0 0 !important;
     --background-base-lowest: 0 0 !important;
     --background-base-lower: 0 0 !important;
     --background-base-low: #00000040 !important;
-    --chat-background-default: #0002 !important;
+    --chat-background-default: #0003 !important;
     --background-surface-high: #0004 !important;
     --background-surface-higher: #0005 !important;
+    --background-surface-highest: #0006 !important;
     --modal-background: #0003 !important;
     --modal-footer-background: #0004 !important;
     --user-profile-overlay-background: #0003;
-    --card-background-default: #FFFFFF05 !important;
-    --background-scrim: #00000020;
+    --card-background-default: #0003 !important;
+    --background-scrim: #0004;
     --scrollbar-auto-thumb: #fff3;
     --__header-bar-background: 0 0 !important;
 }   /* end of config header */
 
 /* set background image */ html {background: var(--theme-background-image); background-size: contain; image-rendering: pixelated}
 /* set tint */ body { background: var(--window-tint) !important; image-rendering: auto;}
-/* voice chat fixes */ .root_bfe55a {background: 0 0;}
-/* i dont remember */ .avatarUploaderInnerSquareDisabled_e04502 {background-color: #00000050;}
+/* voice chat fixes */ .root_bfe55a, .callContainer_cb9592 {background: 0 0;}
+/* i dont member */ .avatarUploaderInnerSquareDisabled_e04502 {background-color: #00000050;}
 /* fix discover page */ .bannerContent_b76d57, .container_e9ef78 {mask: linear-gradient(black 70%, transparent);}
-/* i dont remember */ .container__8a031 {background-color: #00000090;}
-/* i dont remember */ .content_e9e3ed {background: 0 0;}
+/* modal root */ .vc-settings-modal, .container__8a031 {background-color: #0004;}
+/* settings main content section, server settings main panel */ .content_e9e3ed, .contentRegion__23e6b, .contentRegionScroller__23e6b {background: 0 0;}
 /* fix tinted sidebar in transparent mode */ .sidebarListRounded__5e434 { backdrop-filter: none; -webkit-backdrop-filter: none; }
-.custom-user-profile-theme { border-radius: 32px; .banner__68edb {border-radius: 28px; }}
-
-/* hack */
-.user-profile-modal-v2:not(.custom-user-profile-theme) { --background-base-lower: #0003 !important; }
+/* mmm lovely OPINIONATED borders */ .user-profile-popout { border-radius: 32px; > div {border-radius: 28px}}
+/* OPINIONATED banner mask */ .banner__68edb { mask: linear-gradient(black 70%, transparent);}
+/* voicechat chat popup */ .chatTarget__01ae2.floating__01ae2 { background: #0004;}
+/* shiggy code or something */ .vc-shiki-root {background: #0004 !important;}
+/* hacky unthemed expanded profiles */ .user-profile-modal-v2:not(.custom-user-profile-theme) { --background-base-lower: #0003 !important; }
 
 @container style(--enable-blur: 1) {
-    .contentWrapper__08434, /* gif picker */
-    .contentWrapper__9c62c, /* activity center */
-    .user-profile-popout, /* hmm i wonder*/
-    .tooltip_c36707, /* nitro promotion tooltip on home page*/
-    .tooltip__4e35b, /* server tooltips */
-    .wrapper_c0e32c[role="dialog"], /* alt emoji layer */
-    .root__9c3be, /* profile dialogs v2+ */
-    .layer__59d0d > div[role="dialog"], /* pinned message stuff */
-    .container__8a031 /* most modal containers */ {
-        backdrop-filter: blur(calc(var(--blur-strength)));
-    }
+    /* gif picker */ .contentWrapper__08434,
+    /* activity center */ .contentWrapper__9c62c,
+    /* hmm i wonder*/ .user-profile-popout,
+    /* nitro promotion tooltip on home page*/ .tooltip_c36707,
+    /* server tooltips */ .tooltip__4e35b,
+    /* couldn't gather in a million years 😔 */ .reactionTooltip_b49891,
+    /* alt emoji layer */ .wrapper_c0e32c[role="dialog"],
+    /* profile dialogs v2+ */ .root__9c3be,
+    /* pinned message stuff (and probably other stuff) */ /*.layer__59d0d > div*/[role="dialog"]:not([data-dialog="modal"]):not(.focusLock__49fc1), /* fullscreen image modals */
+    /* most modal containers */ .container__8a031, .root__49fc1,
+    /* user area panel*/ .panels__5e434,
+    /* vencord recovery modal and theme manager */ .vc-settings-modal,
+    /* message buttons */ .popover_f84418,
+    /* search menu */ .container__16eb0,
+    /* voicechat chat popup */ .chatTarget__01ae2.floating__01ae2,
+    /* channel hover over threads count */ .popout__76f04,
+    /* ai summary bullshit */ .topicsDropdown__0f481 {
+    backdrop-filter: blur(calc(var(--blur-strength)));
+}
 
     .custom-user-profile-theme { /* cool userprofiles */
         background: transparent;
@@ -82,8 +97,8 @@
         }
 
         > div[class^="inner_"] { /* override discord's properties                             v the only number modified, from 100 to 50 to make it more transparent*/
-            --profile-gradient-start: color-mix(in oklab,var(--profile-gradient-overlay-color) 50%,var(--profile-gradient-primary-color));
-            --profile-gradient-end: color-mix(in oklab,var(--profile-gradient-overlay-color) 50%,var(--profile-gradient-secondary-color));
+            --profile-gradient-start: color-mix(in oklab,var(--profile-gradient-overlay-color) 35%,var(--profile-gradient-primary-color));
+            --profile-gradient-end: color-mix(in oklab,var(--profile-gradient-overlay-color) 35%,var(--profile-gradient-secondary-color));
         }
     }
 
