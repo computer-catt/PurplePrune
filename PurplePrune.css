@@ -25,6 +25,9 @@
     --tm-enable: 1; /* 0 disables */
     --tm-blur: calc(var(--enable-blur) * var(--blur-strength)); /* configure blur here */
 
+    /* Unthemed popouts color*/
+    --ProfilePopoutTint: #0002;
+    
     /* Discords theme options */
     --app-frame-background: 0 0 !important;
     --background-base-lowest: 0 0 !important;
@@ -56,6 +59,7 @@
 /* voicechat chat popup */ .chatTarget__01ae2.floating__01ae2 { background: #0004;}
 /* shiggy code or something */ .vc-shiki-root {background: #0004 !important;}
 /* hacky unthemed expanded profiles */ .user-profile-modal-v2:not(.custom-user-profile-theme) { --background-base-lower: #0003 !important; }
+.user-profile-popout:not(.custom-user-profile-theme) { background: var(--ProfilePopoutTint);}
 
 @container style(--enable-blur: 1) {
     /* gif picker */ .contentWrapper__08434,
