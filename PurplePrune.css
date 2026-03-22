@@ -26,7 +26,7 @@
     --tm-blur: calc(var(--enable-blur) * var(--blur-strength)); /* configure blur here */
 
     /* Unthemed popouts color*/
-    --ProfilePopoutTint: #0002;
+    --ProfilePopoutTint: #0006;
     
     /* Discords theme options */
     --app-frame-background: 0 0 !important;
@@ -58,8 +58,8 @@
 /* OPINIONATED banner mask */ .banner__68edb { mask: linear-gradient(black 70%, transparent);}
 /* voicechat chat popup */ .chatTarget__01ae2.floating__01ae2 { background: #0004;}
 /* shiggy code or something */ .vc-shiki-root {background: #0004 !important;}
-/* hacky unthemed expanded profiles */ .user-profile-modal-v2:not(.custom-user-profile-theme) { --background-base-lower: #0003 !important; }
-.user-profile-popout:not(.custom-user-profile-theme) { background: var(--ProfilePopoutTint);}
+/* hacky unthemed expanded profiles */ .user-profile-modal-v2:not(.custom-user-profile-theme) { --background-base-lower: var(--ProfilePopoutTint) !important; }
+/* unthemed user popouts */ .user-profile-popout:not(.custom-user-profile-theme) { background: var(--ProfilePopoutTint);}
 
 @container style(--enable-blur: 1) {
     /* gif picker */ .contentWrapper__08434,
@@ -82,7 +82,7 @@
     /* game dialog*/ .container_c3474d,
     /* inbox */ .container_fc561d,
     /* listboxes */ [role="listbox"] {
-    backdrop-filter: blur(calc(var(--blur-strength)));
+    backdrop-filter: blur(var(--blur-strength));
 }
 
     .custom-user-profile-theme { /* cool userprofiles */
