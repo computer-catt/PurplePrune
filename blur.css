@@ -1,0 +1,55 @@
+/* gif picker */ .contentWrapper__08434,
+/* activity center */ .contentWrapper__9c62c,
+/* hmm i wonder*/ .user-profile-popout,
+/* nitro promotion tooltip on home page*/ .tooltip_c36707,
+/* server tooltips */ .tooltip__4e35b,
+/* couldn't gather in a million years 😔 */ .reactionTooltip_b49891,
+/* alt emoji layer */ .wrapper_c0e32c[role="dialog"],
+/* profile dialogs v2+ */ .root__9c3be,
+/* pinned message dialog */ .messagesPopoutWrap_e8b59c, /* fullscreen image modals */
+/* most modal containers */ .container__8a031, .root__49fc1,
+/* user area panel*/ .panels__5e434,
+/* vencord recovery modal and theme manager */ .vc-settings-modal,
+/* message buttons */ .popover_f84418,
+/* search menu */ .container__16eb0,
+/* voicechat chat popup */ .chatTarget__01ae2.floating__01ae2,
+/* channel hover over threads count */ .popout__76f04,
+/* ai summary bullshit */ .topicsDropdown__0f481,
+/* game dialog*/ .container_c3474d,
+/* inbox */ .container_fc561d,
+/* listboxes */ [role="listbox"] {
+    backdrop-filter: blur(var(--blur-strength));
+}
+
+.custom-user-profile-theme { /* cool userprofiles */
+    background: transparent;
+    position: relative;
+    border-radius: 32px;
+    &::before{ /* do floating border hack */
+        content: "";
+        position: absolute;
+        inset: 0;
+        padding: var(--custom-user-profile-theme-padding);
+        border-radius: inherit;
+        background: linear-gradient(var(--profile-gradient-primary-color),var(--profile-gradient-secondary-color));
+        -webkit-mask:
+                linear-gradient(#fff 0 0) content-box,
+                linear-gradient(#fff 0 0);
+        -webkit-mask-composite: xor;
+        mask-composite: exclude;
+    }
+
+    > div[class^="inner_"] { /* override discord's properties                              v the only number modified, from 100 to 35 to make it more transparent*/
+        --profile-gradient-start: color-mix(in oklab,var(--profile-gradient-overlay-color) 35%,var(--profile-gradient-primary-color));
+        --profile-gradient-end: color-mix(in oklab,var(--profile-gradient-overlay-color) 35%,var(--profile-gradient-secondary-color));
+    }
+}
+
+.menu_c1e9c4:before, /* right click menu blur */
+    /* top bar */ .barBase__0f481:before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    backdrop-filter: blur(var(--blur-strength));
+}
