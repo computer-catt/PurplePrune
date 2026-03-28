@@ -17,7 +17,8 @@
 /* ai summary bullshit */ .topicsDropdown__0f481,
 /* game dialog*/ .container_c3474d,
 /* inbox */ .container_fc561d,
-/* listboxes */ [role="listbox"] {
+/* listboxes */ [role="listbox"],
+/* Streaming popup */ .popover_d6f39b{
     backdrop-filter: blur(var(--blur-strength));
 }
 
