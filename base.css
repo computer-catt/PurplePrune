@@ -19,9 +19,9 @@
     --ProfilePopoutTint: #0006;
 
     /* Discords theme options */
-    --app-frame-background: 0 0 !important;
-    --background-base-lowest: 0 0 !important;
-    --background-base-lower: 0 0 !important;
+    --app-frame-background: #0000 !important;
+    --background-base-lowest: #0000 !important;
+    --background-base-lower: #0000 !important;
     --background-base-low: #00000040 !important;
     --chat-background-default: #0003 !important;
     --background-surface-high: #0004 !important;
@@ -33,7 +33,7 @@
     --card-background-default: #0003 !important;
     --background-scrim: #0005;
     --scrollbar-auto-thumb: #fff3;
-    --__header-bar-background: 0 0 !important;
+    --__header-bar-background: #000 !important;
 }   /* end of config header */
 
 /* set background image */ html {background: var(--theme-background-image); background-size: contain; image-rendering: pixelated}
