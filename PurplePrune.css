@@ -11,14 +11,14 @@
 
 /* PurplePrune config header */
 :root, .theme-dark {
-    /* Theme Background */
-    --theme-background-image: url(https://github.com/computer-catt/PurplePrune/blob/main/Assets/NightTheme.webp?raw=true);
+    /* Theme Background and its properties*/
+    --theme-background-image: url("https://github.com/computer-catt/PurplePrune/blob/main/Assets/NightTheme.webp?raw=true") repeat-x center / auto 100%;;
     /*--theme-background-image: none;*/
 
     /* background tint*/
     --window-tint: #0005;
     
-    --blur-strength: 4px; /* Use raw theme to fully disable */
+    --blur-strength: 4px; /* Use base theme to fully disable */
 
     /* Unthemed popouts color*/
     --ProfilePopoutTint: #0006;
