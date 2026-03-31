@@ -32,7 +32,7 @@
     --card-background-default: #0003 !important;
     --background-scrim: #0005;
     --scrollbar-auto-thumb: #fff3;
-    --__header-bar-background: #000 !important;
+    --__header-bar-background: #0000 !important;
 }   /* end of config header */
 
 /* set background image */ html {background: var(--theme-background-image); image-rendering: pixelated}
