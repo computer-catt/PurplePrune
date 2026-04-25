@@ -12,7 +12,7 @@
 /* PurplePrune config header */
 :root, .theme-dark {
     /* Theme Background and its properties*/
-    --theme-background-image: url("https://github.com/computer-catt/PurplePrune/blob/main/Assets/NightTheme.webp?raw=true") repeat-x center / auto 100%;;
+    --theme-background-image: url("https://github.com/computer-catt/PurplePrune/blob/main/Assets/NightTheme.webp?raw=true") repeat-x center / auto 100% fixed;
     /*--theme-background-image: none;*/
 
     /* background tint*/
