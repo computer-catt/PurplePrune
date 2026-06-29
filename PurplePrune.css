@@ -18,10 +18,14 @@
     /* background tint*/
     --window-tint: #0005;
     
-    --blur-strength: 4px; /* Use base theme to fully disable */
+    /* Use base theme to fully disable */
+    --blur-strength: 4px;
 
     /* Unthemed popouts color*/
     --ProfilePopoutTint: #0006;
+    
+    /* Profile border radius */
+    --ProfileBorderRadius: 32px;
     
     /* Transparent messagebox options */
     --tm-enable: 1; /* 0 disables */

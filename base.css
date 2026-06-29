@@ -16,6 +16,7 @@
 
     /* Unthemed popouts color*/
     --ProfilePopoutTint: #0006;
+    --ProfileBorderRadius: 32px;
 
     /* Discords theme options */
     --app-frame-background: #0000 !important;
@@ -33,19 +34,20 @@
     --background-scrim: #0005;
     --scrollbar-auto-thumb: #fff3;
     --__header-bar-background: #0000 !important;
+    --custom-user-profile-theme-padding: 4px !important;
 }   /* end of config header */
 
-/* set background image */ html {background: var(--theme-background-image); image-rendering: pixelated}
-/* set tint */ body { background: var(--window-tint) !important; image-rendering: auto;}
-/* voice chat fixes */ .root_bfe55a, .callContainer_cb9592 {background: 0 0;}
-/* i dont member */ .avatarUploaderInnerSquareDisabled_e04502 {background-color: #00000050;}
-/* fix discover page */ .bannerContent_b76d57, .container_e9ef78 {mask: linear-gradient(black 70%, transparent);}
-/* modal root */ .vc-settings-modal, .container__8a031 {background-color: #0004;}
-/* settings main content section, server settings main panel */ .content_e9e3ed, .contentRegion__23e6b, .contentRegionScroller__23e6b {background: 0 0;}
+/* set background image */ html { background: var(--theme-background-image); image-rendering: pixelated; }
+/* set tint */ body { background: var(--window-tint) !important; image-rendering: auto; }
+/* voice chat fixes */ .root_bfe55a, .callContainer_cb9592 { background: 0 0; }
+/* i dont member */ .avatarUploaderInnerSquareDisabled_e04502 { background-color: #00000050; }
+/* fix discover page */ .bannerContent_b76d57, .container_e9ef78 { mask: linear-gradient(black 70%, transparent); }
+/* modal root */ .vc-settings-modal, .container__8a031 { background-color: #0004; }
+/* settings main content section, server settings main panel */ .content_e9e3ed, .contentRegion__23e6b, .contentRegionScroller__23e6b { background: 0 0; }
 /* fix tinted sidebar in transparent mode */ .sidebarListRounded__5e434 { backdrop-filter: none; -webkit-backdrop-filter: none; }
-/* mmm lovely OPINIONATED borders */ .user-profile-popout { border-radius: 32px; > div {border-radius: 28px}}
-/* OPINIONATED banner mask */ .banner__68edb { mask: linear-gradient(black 70%, transparent);}
-/* voicechat chat popup */ .chatTarget__01ae2.floating__01ae2 { background: #0004;}
-/* shiggy code or something */ .vc-shiki-root {background: #0004 !important;}
+/* mmm lovely OPINIONATED borders */ .user-profile-popout { border-radius: 32px; > div { border-radius: 28px; }}
+/* OPINIONATED banner mask */ .banner__68edb { mask: linear-gradient(black 70%, transparent); }
+/* voicechat chat popup */ .chatTarget__01ae2.floating__01ae2 { background: #0004; }
+/* shiggy code or something */ .vc-shiki-root { background: #0004 !important; }
 /* hacky unthemed expanded profiles */ .user-profile-modal-v2:not(.custom-user-profile-theme) { --background-base-lower: var(--ProfilePopoutTint) !important; }
-/* unthemed user popouts */ .user-profile-popout:not(.custom-user-profile-theme) { background: var(--ProfilePopoutTint);}
+/* unthemed user popouts */ .user-profile-popout:not(.custom-user-profile-theme) { background: var(--ProfilePopoutTint); }

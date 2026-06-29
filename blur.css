@@ -18,14 +18,14 @@
 /* game dialog*/ .container_c3474d,
 /* inbox */ .container_fc561d,
 /* listboxes */ [role="listbox"],
-/* Streaming popup */ .popover_d6f39b{
+/* Streaming popup */ .popover_d6f39b {
     backdrop-filter: blur(var(--blur-strength));
 }
 
 .custom-user-profile-theme { /* cool userprofiles */
     background: transparent;
     position: relative;
-    border-radius: 32px;
+    border-radius: var(--ProfileBorderRadius);
     &::before{ /* do floating border hack */
         content: "";
         position: absolute;
@@ -43,6 +43,9 @@
     > div[class^="inner_"] { /* override discord's properties                              v the only number modified, from 100 to 35 to make it more transparent*/
         --profile-gradient-start: color-mix(in oklab,var(--profile-gradient-overlay-color) 35%,var(--profile-gradient-primary-color));
         --profile-gradient-end: color-mix(in oklab,var(--profile-gradient-overlay-color) 35%,var(--profile-gradient-secondary-color));
+
+        /* border radius hack, x2 on padding cs normal math doesnt work ig, i think im stupid */
+        border-radius: calc(var(--ProfileBorderRadius) - calc(var(--custom-user-profile-theme-padding) * 2)) !important;
     }
 }
 
